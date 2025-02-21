@@ -13,10 +13,25 @@ body {
   line-height: 1.5;
 }
 
+ul{
+    list-style-type: none;
+}
+/* Task-1 styles */
+#categories{
+  color: #2e2f42;
+  width: 392px;
+}
+.item{
+  background-color: #F6F6FE;
+    border-radius: 8px;
+}
+.item li{
+  border-color: #808080;
+ border-radius: 4px;
+}
 /* Task-2 styles */
 
 .gallery {
-  list-style-type: none;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -31,4 +46,40 @@ body {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+/* Task-6 Styles */
+#controls {
+  width: 486px;
+  height: 104px;
+  display: flex;
+  gap: 16px;
+  padding: 32px;
+  background-color: #F6F6FE;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+#controls > input{
+  border-color: #808080;
+  border-radius: 8px;
+  width: 150px;
+  height: 40px;
+}
+#controls > button{
+  border-radius: 8px;
+    height: 40px;
+    color: FFFFFF;
+}
+button[data-create] {
+background-color: #4E75FF;
+}
+
+#boxes{
+  width: 486px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+  padding: 32px;
+  background-color: #F6F6FE;
+  border-radius: 8px;
 }
